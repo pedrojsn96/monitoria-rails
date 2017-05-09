@@ -1,24 +1,13 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+# Engenharia de Software
 
-Things you may want to cover:
+Monitoria de Rails e Cucumber
 
-* Ruby version
 
-* System dependencies
+Monitores:
 
-* Configuration
+Pedro Jose de Souza Neto (pjsn)
 
-* Database creation
+Rafael Felipe Pedrosa Jordão (rfpj)
 
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...

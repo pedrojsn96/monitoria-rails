@@ -1,0 +1,24 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Nome:</strong>
+  <%= @restaurante.nome %>
+</p>
+
+<p>
+  <strong>Especialidade:</strong>
+  <%= @restaurante.especialidade %>
+</p>
+
+<p>
+  <strong>Endereco:</strong>
+  <%= @restaurante.endereco %>
+</p>
+<p>
+	<b>Nota média: </b>
+	<%= @restaurante.qualificacoes.average(:nota) %><br/>
+</p>
+
+<%= link_to "Qualificar esse Restaurante", :controller => "qualificacoes",:action => "new",:restaurante => @restaurante %>
+<%= link_to 'Edit', edit_restaurante_path(@restaurante) %> |
+<%= link_to 'Back', restaurantes_path %>

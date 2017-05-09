@@ -1,0 +1,30 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Restaurantes</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Nome</th>
+      <th>Especialidade</th>
+      <th>Endereco</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @restaurantes.each do |restaurante| %>
+      <tr>
+        <td><%= restaurante.nome %></td>
+        <td><%= restaurante.especialidade %></td>
+        <td><%= restaurante.endereco %></td>
+        <td><%= link_to 'Show', restaurante %></td>
+        <td><%= link_to 'Edit', edit_restaurante_path(restaurante) %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Restaurante', new_restaurante_path %>

@@ -1,5 +1,3 @@
-# README
-
 # Engenharia de Software
 
 Monitoria de Rails e Cucumber
